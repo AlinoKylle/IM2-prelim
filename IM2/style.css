@@ -1,0 +1,102 @@
+body {
+    background-image: url('background.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: rgba(26, 26, 26, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.modal-content {
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+.modal-header, .modal-footer {
+    border: none;
+}
+
+.modal-title {
+    color: #fff;
+}
+
+.form-control {
+    background-color: #3a3a3a;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+.form-control:focus {
+    background-color: #444;
+    border-color: #666;
+    color: #fff;
+}
+
+.table {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.table th, .table td {
+    border-color: #444;
+}
+
+.table th {
+    background-color: #333;
+}
+
+.table tbody tr:hover {
+    background-color: #2a2a2a;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary, .btn-success {
+    background-color: #444;
+    border: none;
+}
+
+.btn-secondary:hover, .btn-success:hover {
+    background-color: #555;
+}
+
+/* Edit button style */
+.btn-warning {
+    background-color: #fff; /* White color for Edit button */
+    color: #000; /* Black text for contrast */
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #e0e0e0; /* Light gray on hover */
+    color: #000; /* Keep black text on hover */
+}
+
+/* Delete button style */
+.btn-danger {
+    background-color: #dc3545; /* Red color for Delete button */
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
